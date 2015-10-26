@@ -42,7 +42,9 @@
 <link href="{{ url_for(theme.css) }}/main.css?v={{ theme.version }}" rel="stylesheet" type="text/css" />
 
 
-{% if config.description %}
+{% if page.description %}
+  <meta name="description" content="{{ page.description }}" />
+{% elif config.description %}
   <meta name="description" content="{{ config.description }}" />
 {% endif %}
 
