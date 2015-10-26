@@ -19,4 +19,7 @@
   </a>
 </div>
 
-{% block footer %}{% endblock %}
+<div class="copyright">
+  本站访问量&nbsp;<font style='color:red'><span id="sum_counter"><i class="fa fa-spinner fa-spin"></i></span>&nbsp;</font>次
+  ，本页访问量&nbsp;<font style='color:red'><span id="detail_counter"><i class="fa fa-spinner fa-spin"></i></span>&nbsp;</font>次
+</div>

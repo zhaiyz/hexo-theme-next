@@ -104,5 +104,13 @@
       });
     });
   </script>
+
+  {# Counter #}
+  <script type="text/javascript" src="{{ url_for(theme.js) }}/firebase.js"></script>
+  <script type="text/javascript" src="{{ url_for(theme.js) }}/counter.js"></script>
+
+  {# CNZZ #}
+  <div style="display: none"><script src="http://s6.cnzz.com/stat.php?id=3234179&web_id=3234179" language="JavaScript"></script></div>
+
 </body>
 </html>

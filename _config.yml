@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Java, Linux, Liferay, 程序员, 博客, 一介码工"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2011
 
 
 
@@ -27,11 +27,11 @@ rss:
 # Remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  #categories: /categories
-  #about: /about
   archives: /archives
+  categories: /categories
   tags: /tags
-  #commonweal: /404.html
+  about: /about
+  commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -57,7 +57,7 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Mist
+scheme: Mist
 
 
 
@@ -78,13 +78,23 @@ sidebar: post
 
 
 # Sidebar Avatar
-#avatar:
+avatar: http://zhaiyz.qiniudn.com/avatar.jpeg
 
 
 # Social links
-# social:
-  #GitHub:
+social:
+  GitHub: https://github.com/zhaiyz
+  Twitter: https://twitter.com/zhaiyz
+  Weibo: http://weibo.com/zhaiyz
   #Others:
+
+# title, chinese available
+links_title: 友情链接
+# links
+links:
+  MacTalk: http://macshuo.com/
+  聚财富: https://jucaifu.com
+
 
 
 # TOC in the Sidebar
@@ -98,8 +108,7 @@ toc:
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
-#creative_commons: by-nc-sa
-#creative_commons:
+creative_commons: by-nc-sa
 
 
 
@@ -122,7 +131,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night eighties
 
 # Automatically scroll page to section which is under <!-- more --> mark.
 scroll_to_more: true
@@ -152,7 +161,7 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: zhaiyz
 
 # Disqus
 #disqus_shortname:
