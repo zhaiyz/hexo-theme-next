@@ -77,6 +77,20 @@ sidebar: post
 #sidebar: remove
 
 
+# Social links
+# social:
+  #GitHub:
+  #Others:
+
+# Social Icons
+social_icons:
+  enable: true
+  # Icon Mappings
+  GitHub: github
+  Twitter: twitter
+  Weibo: weibo
+
+
 # Sidebar Avatar
 avatar: http://zhaiyz.qiniudn.com/avatar.jpeg
 
@@ -92,7 +106,6 @@ social:
 links_title: 友情链接
 # links
 links:
-  MacTalk: http://macshuo.com/
   聚财富: https://jucaifu.com
 
 
@@ -213,8 +226,7 @@ facebook_sdk:
 #! UNLESS YOU KNOW WHAT YOU ARE DOING
 #! ---------------------------------------------------------------
 
-
-# Use velocity to animate everything.
+# Motion
 use_motion: true
 
 # Fancybox
