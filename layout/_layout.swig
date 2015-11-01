@@ -67,17 +67,6 @@
   {% block comment_system %}{% endblock %}
   {% include '_scripts/baidushare.swig' %}
 
-  {# LazyLoad #}
-  <script type="text/javascript" src="{{ url_for(theme.js) }}/lazyload.js"></script>
-  <script type="text/javascript">
-    $(function () {
-      $("#posts").find('img').lazyload({
-        placeholder: "{{ url_for(theme.images) }}/loading.gif",
-        effect: "fadeIn"
-      });
-    });
-  </script>
-
   {# Counter #}
   <script type="text/javascript" src="{{ url_for(theme.js) }}/firebase.js?v=2.3.1"></script>
   <script type="text/javascript" src="{{ url_for(theme.js) }}/counter.js?v=1.0.0"></script>
